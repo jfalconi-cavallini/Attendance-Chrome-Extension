@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Tally Pal",
+    "version": "1.0",
+    "description": "A custom chrome extension to scrape data from a website and create a personalized excel sheet.",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "script.js"
+    },
+    "permissions": ["tabs", "activeTab"],
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+  
