@@ -6,12 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test chrome extension</title>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
     <h1> Tally Pal</h1>>
-    <label for="month">Enter month (YYYY-MM):</label>
-    <input type="text" id="month" placeholder="2024-08">
+    <label for="month">Select month: </label>
+    <select id="month">
+        <option value="01">January</option>
+        <option value="02">February</option>
+        <option value="03">March</option>
+        <option value="04">April</option>
+        <option value="05">May</option>
+        <option value="06">June</option>
+        <option value="07">July</option>
+        <option value="08">August</option>
+        <option value="09">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+    </select>
     <button id="generate-button">Generate Excel</button>
     <script src="script.js"></script>
 </body>
